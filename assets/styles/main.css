@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Manrope;
+  src: url("./assets/fonts/Manrope-ExtraBold.ttf");
+}
+
+body {
+  color: hsl(193, 38%, 86%);
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  background-color: hsl(217, 19%, 24%);
+  padding: 20px 20px;
+  padding-top: 35px;
+  margin: 15vh 10px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  border: 3%;
+}
+#slipId {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-family: Manrope;
+  letter-spacing: 5px;
+  font-size: 10px;
+}
+#advice {
+  font-size: 25px;
+  color: hsl(193, 38%, 86%);
+  line-height: 1.5;
+  font-family: Manrope;
+  text-align: center;
+}
+#newAdvice {
+  display: block;
+  background-color: hsl(150, 100%, 66%);
+  width: 70px;
+  height: 70px;
+  border: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  transform: translate(0, 75%);
+}
+
+.hover:hover {
+  -webkit-box-shadow: 0 0 25px hsl(150, 100%, 66%);
+  -moz-box-shadow: 0 0 25px hsl(150, 100%, 66%);
+  -ms-box-shadow: 0 0 25px hsl(150, 100%, 66%);
+  box-shadow:  0 0 25px hsl(150, 100%, 66%);
+}
+
+@media (min-width: 480px) {
+  #box {
+    width: 33%;
+  }
+  
+} 
